@@ -128,7 +128,6 @@ python src/multi.py
 - "Tell me a fun fact."
 - "What’s the weather in New York?"
 - "Search for the latest news about space exploration."
-- "Run this SQL query: SELECT \* FROM my_table;"
 
 ---
 
