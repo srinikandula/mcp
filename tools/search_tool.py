@@ -1,6 +1,8 @@
 def register_search_tool(mcp):
     from langchain_community.tools import DuckDuckGoSearchRun
 
+    /**
+     * Search the web for relevant information using DuckDuckGo Search.
     @mcp.tool()
     def search_tool(query: str) -> str:
         """
