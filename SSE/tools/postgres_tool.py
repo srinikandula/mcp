@@ -15,10 +15,10 @@ def register_postgres_tool(mcp):
         """
         try:
             conn = psycopg2.connect(
-                host="0.0.0.0",
+                host="13.201.178.49",
                 dbname="postgres",
                 user="postgres",
-                password="",
+                password="PGadmin@123",
                 port=5432
             )
             cursor = conn.cursor()
